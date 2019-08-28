@@ -58,6 +58,5 @@ public class MathTests {
     @Test (expectedExceptions = IllegalArgumentException.class)
     public void divide_ten_by_zero_throws_illegal_argument_exception(){
         Math.divide(10,0);
-
     }
 }
